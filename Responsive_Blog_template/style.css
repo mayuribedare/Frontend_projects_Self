@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font1);
+}
+.navleft img{
+  width: 50px;
+}
+.navleft {
+  font-size: 26px;
+  display: flex;
+}
+.navleft ul {
+  display: flex;
+  font-size: 22px;
+  margin: 8px 40px;
+}
+.navleft ul li {
+  font-family: var(--font2);
+  list-style: none;
+  margin: 0px 15px;
+}
+.navleft ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navleft ul li a:hover {
+  font-weight: bold;
+  color: var(--main-bg-color);
+}
+.form-input {
+    padding: 0px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 13px;
+    font-family: var(--font1);
+    font-size: 16px;
+    padding-top: 3px;
+}
+.btn {
+  padding: 0px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 3px;
+    font-family: var(--font1);
+    font-size: 16px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: var(--main-bg-color);
+}
+.content {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.content::after{
+  content: "";
+  background-image: url(office.jpg);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.3;
+  /* margin-top: 12px; */
+  margin-bottom: 12px;
+}
+.content-left {
+  font-family: var(--font2);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.content-right {
+  /* height: 85%; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.content-right img {
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 150px;
+  margin-top: 58px;
+  margin-left: 75px;
+}
+.home-articles {
+  background-color:rgb(241, 248, 250,0.5);
+  /* padding: 20px; */
+  margin-top: 20px;
+  position: relative;
+}
+.year-box{
+  position: absolute;
+  width: 224px;
+  height: 200px;
+  right: 114px;
+  top:100px;
+  font-size: 18px;
+}
+.year-box div{
+  margin-top: 12px;
+}
+.home-articles h1{
+  padding: 12px;
+}
+.home-articles a{
+  color:var(--main-bg-color);
+  text-decoration: none;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+
+/* .home-article-img {
+    width: 130px;
+} */
+.home-article-content{
+    align-self: center;
+    padding: 0px 25px;
+}
+.footer {
+  background-color: var(--main-bg-color);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+}

@@ -1,0 +1,19 @@
+.contact-content{
+  background-color:rgb(208, 221, 221);
+  z-index: -1; 
+}
+.contact-form {
+    height: 600px;
+  }
+h2{
+  margin: 5px;
+}
+.form-box input,
+  textarea {
+    width: 60vw;
+    font-size: 17px;
+    padding: 8px 5px;
+    margin: 6px;
+  }
+
+

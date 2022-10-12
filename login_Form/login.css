@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu+Mono:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+   
+}
+.container h1{
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    width: 50%;
+    font-size: 50px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 14%;
+    left: 38%;
+    width: 25%;
+}
+.box{
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+}
+.box input{
+    background: none;
+    font-family: 'Ubuntu Mono', monospace;
+    border: none;
+    outline: none;
+    width: 75%;
+    font-size: 20px;
+    color: white;
+    /* margin: 10px 0px; */
+    padding: 5px 10px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background: white;
+    color: purple;
+    opacity: 0.5;
+}
+.box i{
+    width: 25px;
+    /* padding: 0px 12px; */
+    text-align: center;
+} 
